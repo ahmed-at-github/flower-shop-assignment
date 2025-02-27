@@ -56,6 +56,10 @@
   font-weight: 700;
 }
 
+.btn-prime:hover {
+    background-color: #e55473af;
+}
+
 .hero-banner {
   margin-left: 97px;
 }
