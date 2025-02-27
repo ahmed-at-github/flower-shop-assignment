@@ -27,7 +27,6 @@
 }
 .hero-text {
   max-width: 50%;
-  
 }
 
 .hero-title {
@@ -58,8 +57,73 @@
 }
 
 .hero-banner {
-    margin-left: 97px;
-  
+  margin-left: 97px;
 }
 .img-banner {
+}
+/* Hero Ends */
+
+/* Main starts */
+.main{
+    margin: 178px 240px 128px 240px;
+}
+
+/* Feat starts  */
+.feat-area{
+    margin-bottom: 128px;
+}
+.feat-title {
+  color: var(--black);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 24px ;
+}
+
+.feat-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 180px;
+  margin-bottom: 48px;
+  
+}
+
+.flower-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.flower-bg {
+  width: 21vw;
+  height: 24.36vw;
+  border-radius: 300px 300px 0px 0px;
+  /* background-image: url(./images/pngwing\ 6.png); */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom; */
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  
+}
+.flower-img{
+position:relative bottom;
+max-width:fit-content;
+height: auto;
+
+/* display: block; */
+
+}
+
+.flower-a a {
+  color: var(--black);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  display: block;
 }
