@@ -64,20 +64,24 @@
 /* Hero Ends */
 
 /* Main starts */
-.main{
-    margin: 178px 240px 128px 240px;
+.main {
+  margin: 178px 0px 128px 0px;
 }
 
 /* Feat starts  */
-.feat-area{
-    margin-bottom: 128px;
+.feat-flower-area {
+  margin-bottom: 128px;
+}
+.feat {
+  margin: 0px 240px;
+  margin-bottom: 128px;
 }
 .feat-title {
   color: var(--black);
   text-align: center;
   font-size: 40px;
   font-weight: 400;
-  margin-bottom: 24px ;
+  margin-bottom: 24px;
 }
 
 .feat-para {
@@ -85,15 +89,14 @@
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  padding: 0px 180px;
+  /* padding: 0px 180px; */
   margin-bottom: 48px;
-  
 }
 
-.flower-container{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
+.flower-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 
 .flower-bg {
@@ -106,15 +109,13 @@
   margin-bottom: 24px;
   display: flex;
   justify-content: center;
-  
 }
-.flower-img{
-position:relative bottom;
-max-width:fit-content;
-height: auto;
+.flower-img {
+  position: relative bottom;
+  max-width: fit-content;
+  height: auto;
 
-/* display: block; */
-
+  /* display: block; */
 }
 
 .flower-a a {
@@ -127,3 +128,57 @@ height: auto;
   text-decoration-style: solid;
   display: block;
 }
+/* delivery starts */
+.delivery {
+  margin: 0px 240px;
+}
+.del-box {
+  max-width: 100%;
+  height: 320px;
+
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+/* hot deal starts */
+.ht-deal-area {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 128px;
+  overflow: auto;
+}
+.ht-deal {
+  display: flex;
+  margin: 100px 240px;
+ 
+}
+.ht-deal-text {
+  /* max-width: 50%; */
+  margin: auto auto;
+  margin-right: 215px;
+}
+.ht-deal-title {
+  color: var(--black);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.ht-deal-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.ht-deal-img img {
+  display: block;
+}
+
+/* Insta starts */
