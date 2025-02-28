@@ -164,8 +164,6 @@
   /* margin: auto auto; */
   align-content: center;
   margin-right: 215px;
-
-
 }
 .ht-deal-title {
   color: var(--black);
@@ -229,11 +227,10 @@
   width: 100%;
 }
 /* latest starts */
-.latest-area{
+.latest-area {
   margin: 0px 240px; /*exception case */
 }
 .latest {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,7 +245,6 @@
 
   width: 100%;
   height: 25vw;
- 
 }
 
 .latest-title {
@@ -268,12 +264,44 @@
   margin-bottom: 48px;
 }
 
-.input-div{
-  
+.input-div {
 }
 .latest input {
   padding: 23px;
   border-radius: 8px;
   width: 35vw;
-  
+}
+/* footer starts */
+.footer-area {
+  background: #111010;
+}
+.footer {
+  padding: 128px 0px  ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ft-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.ft-para {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.ft-cpy {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  /* margin-bottom: 128px; */
 }
