@@ -57,7 +57,7 @@
 }
 
 .btn-prime:hover {
-    background-color: #e55473af;
+  background-color: #e55473af;
 }
 
 .hero-banner {
@@ -161,8 +161,11 @@
 }
 .ht-deal-text {
   /* max-width: 50%; */
-  margin: auto auto;
+  /* margin: auto auto; */
+  align-content: center;
   margin-right: 215px;
+
+
 }
 .ht-deal-title {
   color: var(--black);
@@ -224,4 +227,53 @@
   position: relative;
   height: 100%;
   width: 100%;
+}
+/* latest starts */
+.latest-area{
+  margin: 0px 240px; /*exception case */
+}
+.latest {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 120px 0px; */
+
+  background-image: url(./images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+  border-radius: 8px;
+
+  width: 100%;
+  height: 25vw;
+ 
+}
+
+.latest-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.latest-para {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.input-div{
+  
+}
+.latest input {
+  padding: 23px;
+  border-radius: 8px;
+  width: 35vw;
+  
 }
